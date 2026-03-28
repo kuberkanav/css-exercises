@@ -22,9 +22,10 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
-  padding: 25px;
-  gap: 25px;
+  padding: 16px;
+  gap: 16px;
 }
 
 .icon {
@@ -36,28 +37,32 @@ body {
   height: 42px;
   border-radius: 50%;
   display: flex;
-  align-items: center;
   justify-content: center;
   flex-shrink: 0;
 }
 
-.header {
-  font-weight: 900;
-  font-size:21px;
-  text-align: center;
-}
-
-.mid {
+.top {
   display: flex;
-  flex-direction: column;
-  gap: 25px;
-  flex-grow: 0;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.ok {
+.header {
+  font-weight: 800;
+  font-size:20px;
+}
+
+.text {
+  margin:0 20% 2%;
+  text-align: justify;
+}
+
+
+.bot {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 16px;
+  margin-bottom: 5px;
 }
 
 .close-button {
